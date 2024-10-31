@@ -1,0 +1,102 @@
+.header-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20vw;
+    background-color: black;
+    height:60px ;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.rlp {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.search-bar{
+    height: 40px;
+    width: 250px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+  .search-bar {
+    padding-right: 50px; 
+    font-size: 20px;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: 50%;
+    right: 50px; 
+    transform: translateY(-50%);
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+  }
+
+  .search-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+
+  .white{
+    color:white;
+  }
+
+  .drop-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position:absolute;
+    top:100%;
+    right:5px;
+    background-color: white;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border: solid 1px black;
+  }
+
+  .cursor-pointer{
+    cursor: pointer;
+  }
+
+.project-wrapper-header{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid orange;
+    justify-content: space-between;
+    border-radius: 5px;
+    position: relative;
+}
+
+.project-profile-header{
+    height:80%;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid purple;
+}
